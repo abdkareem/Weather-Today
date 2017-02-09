@@ -17,6 +17,7 @@
 		512D9AAB1E4C3E2C001686C8 /* Weather_TodayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D9AAA1E4C3E2C001686C8 /* Weather_TodayUITests.m */; };
 		512D9ABA1E4C3F57001686C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512D9AB91E4C3F57001686C8 /* SystemConfiguration.framework */; };
 		512D9ABC1E4C3F70001686C8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512D9ABB1E4C3F70001686C8 /* CoreLocation.framework */; };
+		512D9ABF1E4CDC7A001686C8 /* MyGeoLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512D9ABE1E4CDC7A001686C8 /* MyGeoLocationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		512D9AAC1E4C3E2C001686C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		512D9AB91E4C3F57001686C8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		512D9ABB1E4C3F70001686C8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		512D9ABD1E4CDC7A001686C8 /* MyGeoLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGeoLocationViewController.h; sourceTree = "<group>"; };
+		512D9ABE1E4CDC7A001686C8 /* MyGeoLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGeoLocationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				512D9A881E4C3E2C001686C8 /* AppDelegate.h */,
 				512D9A891E4C3E2C001686C8 /* AppDelegate.m */,
 				512D9A8B1E4C3E2C001686C8 /* ViewController.h */,
+				512D9ABD1E4CDC7A001686C8 /* MyGeoLocationViewController.h */,
+				512D9ABE1E4CDC7A001686C8 /* MyGeoLocationViewController.m */,
 				512D9A8C1E4C3E2C001686C8 /* ViewController.m */,
 				512D9A8E1E4C3E2C001686C8 /* Main.storyboard */,
 				512D9A911E4C3E2C001686C8 /* Assets.xcassets */,
@@ -293,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				512D9A8D1E4C3E2C001686C8 /* ViewController.m in Sources */,
+				512D9ABF1E4CDC7A001686C8 /* MyGeoLocationViewController.m in Sources */,
 				512D9A8A1E4C3E2C001686C8 /* AppDelegate.m in Sources */,
 				512D9A871E4C3E2C001686C8 /* main.m in Sources */,
 			);
